@@ -2,35 +2,64 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>صفحة مصطفى الأولى</title>
+    <title>Mustafa Ismail - Portfolio</title>
     <style>
-        /* ده جزء الـ CSS اللي بيجمل الصفحة */
         body {
-            background-color: #1a1a1a; /* لون خلفية غامق شيك */
-            color: #ffffff; /* لون الخط أبيض */
-            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            height: 100vh;
+            align-items: center;
+            min-height: 100vh;
             margin: 0;
         }
-        h1 {
-            color: #00ff88; /* لون أخضر فسفوري للعناوين */
-            border-bottom: 2px solid #00ff88;
-            padding-bottom: 10px;
+        .card {
+            background: #161b22;
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid #30363d;
+            text-align: center;
+            max-width: 400px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.7);
         }
-        p {
-            font-size: 1.2rem;
-            background: #333;
-            padding: 20px;
-            border-radius: 10px;
+        h1 { color: #58a6ff; margin-bottom: 10px; }
+        p { line-height: 1.6; color: #8b949e; }
+        
+        /* تنسيق الأزرار */
+        .links { margin-top: 25px; display: flex; flex-direction: column; gap: 10px; }
+        .btn {
+            text-decoration: none;
+            color: white;
+            background: #238636;
+            padding: 12px;
+            border-radius: 8px;
+            transition: 0.3s;
+            font-weight: bold;
         }
+        .btn:hover { background: #2ea043; transform: scale(1.05); }
     </style>
 </head>
 <body>
-    <h1>مرحباً بكم في عالمي الرقمي 🚀</h1>
-    <p>أنا مصطفى إسماعيل، طالب CS وهذا أول موقع لي بتنسيق CSS.</p>
+    <div class="card">
+        <h1></h1> MOSTAFA ISMAIL 👨‍💻</h1>
+        <p> (CS) </p>
+        <p> GitHub.</p>
+        
+        <div class="links">
+            <a href="https://github.com/MOSTAFA-ISMAIL-DEV" class="btn" target="_blank">حسابي على جيت هاب</a>
+            <div class="links">
+            <a href="https://facebook.com" class="btn" target="_blank">فيسبوك</a>
+
+            <a href="https://wa.me/201000000000" class="btn" style="background: #25D366;" target="_blank">واتساب 💬</a>
+            
+            <a href="https://instagram.com/اسم_حسابك" class="btn" style="background: #E1306C;" target="_blank">انستجرام 📸</a>
+            
+            <a href="https://tiktok.com/@اسم_حسابك" class="btn" style="background: #000000; border: 1px solid #fff;" target="_blank">تيك توك 🎵</a>
+            
+            <a href="https://snapchat.com/add/اسم_حسابك" class="btn" style="background: #FFFC00; color: #000;" target="_blank">سناب شات 👻</a>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
