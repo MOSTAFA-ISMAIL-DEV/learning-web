@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <title>Mustafa Ismail - Portfolio</title>
     <style>
-        body {
+         body {
             background-color: #0d1117;
             color: #c9d1d9;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: sans-serif;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start; /* ده بيخلي الكارت يطلع لفوق */
             min-height: 100vh;
             margin: 0;
+            padding-top: 40px; /* ده بيحدد المسافة من فوق */
         }
+            
         .card {
             background: #161b22;
-            padding: 40px;
-            border-radius: 20px;
+            padding: 25px;
+            border-radius: 15px;
             border: 1px solid #30363d;
             text-align: center;
-            max-width: 400px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+            width: 85%; /* خليه ياخد مساحة أكبر من شاشة الموبايل */
+            max-width: 350px;
         }
+    
         h1 { color: #58a6ff; margin-bottom: 10px; }
         p { line-height: 1.6; color: #8b949e; }
         
